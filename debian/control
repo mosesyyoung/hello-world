@@ -1,10 +1,12 @@
 Source: hello-world
 Section: utils
 Priority: optional
-Maintainer: Your Name <you@example.com>
-Build-Depends: debhelper-compat (= 13)
+Maintainer: Moses Young <mosesyyoung@hotmail.com>
+Build-Depends: debhelper-compat (= 13), make, gcc
+Standards-Version: 4.5.1
 
 Package: hello-world
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: A simple hello world program.
+Description: Hello World program
+ A minimal demonstration of Debian packaging.
